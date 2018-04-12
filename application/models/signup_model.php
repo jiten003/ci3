@@ -1,0 +1,29 @@
+<?php
+class signup_model extends CI_Model{
+
+
+function __construct() {
+parent::__construct();
+}
+
+
+
+function form_insert($data){
+// Inserting in Table(students) of Database(college)
+$this->db->insert('users', $data);
+}
+
+
+function check_email($data){
+	
+	
+}
+
+
+
+
+
+
+
+}
+?>
